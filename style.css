@@ -60,8 +60,6 @@
     font-weight: 700;
   
 }
-
-
 .btn1{
     height: 45px;
     width: 25%;
@@ -72,4 +70,28 @@
     font-weight: 700;
     border-radius: 60px;
     margin-right: 700px;
+}
+
+.btn1:hover{
+    background-color: rgb(232, 53, 53);
+    transition: 0.5s;
+}
+.btn-1{
+    margin-top: 30px;
+    height: 45px;
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color: #f81a5c ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    /* margin-right: 700px; */
+}
+
+.card:hover{
+    -webkit-box-shadow: 0px 1px 13px 2px rgba(0,0,0,0.53); 
+box-shadow: 0px 1px 13px 2px rgba(0,0,0,0.53);
+transition: 0.5s;
+
 }
